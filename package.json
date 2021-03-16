@@ -1,0 +1,22 @@
+{
+  "name": "16.03.2021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Notable0111/16.03.2021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Notable0111/16.03.2021/issues"
+  },
+  "homepage": "https://github.com/Notable0111/16.03.2021#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
