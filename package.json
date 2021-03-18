@@ -17,6 +17,18 @@
   },
   "homepage": "https://github.com/Notable0111/16.03.2021#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "gulp-remove": "^1.3.2"
+  }, 
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }
