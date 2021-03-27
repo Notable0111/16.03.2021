@@ -1,0 +1,51 @@
+.middle {
+    width: 1571px;
+    height:473px; 
+
+ &__header {
+     height: 30px;
+     width: 381px;
+     font-size: 30px;
+     line-height: 30px;
+     margin: 0 auto;
+    font-family: 'MuseoModerno';
+ }
+ &__icons {
+     margin-top: 75px;
+     display: flex;
+     justify-content: space-between;
+     width: 1000px;
+     height: 200px;  
+     text-align: center;
+     margin: 0 auto;   
+     padding-top: 75px;
+ }
+ &__icon {
+     margin-right: 86px;
+ }
+ &__img-1 {
+     align-items: center;
+ }
+ &__h3 {
+    font-family: 'MuseoModerno';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    height: 29px;
+ }
+ &__text {
+ font-family: 'MuseoModerno';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 18px;
+width: 269px;
+height: 91px;
+ }  
+ &__a {
+    font-family: 'Syne Mono', monospace;
+    color: rgb(255, 0, 0);
+ }
+}

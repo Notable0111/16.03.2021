@@ -1,5 +1,5 @@
 const gulp        = require('gulp');
-const browserSync = require('browser-sync');
+const browserSync = require('browser-sync'  );
 const sass        = require('gulp-sass');
 const cleanCSS = require('gulp-clean-css');
 const autoprefixer = require('gulp-autoprefixer');
@@ -12,7 +12,17 @@ gulp.task('server', function() {
             baseDir: "src"
         }
     });
-
+    gulp.task('brow', function() {
+        brow.init({
+          server: {
+            baseDir: 'app'
+          },
+          browser: 'chromium',
+          notify: false
+        }); 
+      });
+    
+   
     gulp.watch("src/*.html").on('change', browserSync.reload);
 });
 

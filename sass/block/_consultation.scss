@@ -1,0 +1,20 @@
+.consultation {
+    padding: 100px 0 92px 0;
+    min-height: 680px;
+    background:url(../img/snicers.jpg) center (center/cover) no-repeat;
+
+    &__title {
+        color: white;
+        font-size: 36px;
+        font-weight: 700;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    &__descr {
+        color: white;
+        font-family: "Museo Sans Cyrl -500";
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+}
